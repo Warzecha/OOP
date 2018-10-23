@@ -239,10 +239,34 @@ public class Matrix {
             throw new RuntimeException("Can only calculate dot product of matrices n x m and m x n");
 
 
-        return new Matrix(2,2);
+        Matrix to_return =  new Matrix(2,2);
+
+         for(int i=0; i < this.rows; i++)
+         {
+             for(int j=0; j < other.cols; j++)
+             {
+                 double sum = 0;
+                 for(int x=0; x < this.cols; x++)
+                 {
+                     sum += this.get(i, x) * other.get(x, j);
+                 }
+
+                 to_return.set(i, j, sum);
+             }
+         }
+        return to_return;
     }
 
+    public double frobenius() {
 
+        double sum = 0;
+
+        for(int i=0; i<this.data.length; i++)
+        {
+            sum += data[i] * data[i];
+        }
+        return Math.sqrt(sum);
+    }
 
 
 }
