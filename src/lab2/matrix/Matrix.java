@@ -55,20 +55,14 @@ public class Matrix {
     }
 
 
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
-
-    public void setCols(int cols) {
-        this.cols = cols;
-    }
-
 
     double get(int r,int c) {
-        return this.data[this.rows * r + c];
+//        System.out.print(this.cols * r + c);
+        return this.data[this.cols * r + c];
     }
     void set (int r,int c, double value) {
-        this.data[this.rows * r + c] = value;
+//        System.out.print(this.cols * r + c);
+        this.data[this.cols * r + c] = value;
     }
 
     public String toString(){
@@ -78,7 +72,7 @@ public class Matrix {
             buf.append("[");
             for (int j=0; j<cols; j++)
             {
-                buf.append(data[rows * i + j]);
+                buf.append(data[cols * i + j]);
                 buf.append(", ");
             }
             buf.deleteCharAt(buf.length()-2);
