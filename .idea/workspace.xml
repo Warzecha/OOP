@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2101ea-bfad-4d78-94cd-896c79d515e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab2/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/matrix/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,12 +34,14 @@
     <session id="1816409354">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,12 +60,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3091" />
+          <entry key="java" value="3831" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3091" />
+          <entry key="JAVA" value="3831" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -76,68 +75,44 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Matrix.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#970#971#0" expanded="true" />
-                    <element signature="e#997#998#0" expanded="true" />
-                    <element signature="e#1025#1026#0" expanded="true" />
-                    <element signature="e#1052#1053#0" expanded="true" />
-                    <element signature="e#1223#1224#0" expanded="true" />
-                    <element signature="e#1274#1275#0" expanded="true" />
-                    <element signature="e#1317#1318#0" expanded="true" />
-                    <element signature="e#1369#1370#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="37" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Matrix.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-105">
-                  <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#970#971#0" expanded="true" />
-                    <element signature="e#997#998#0" expanded="true" />
-                    <element signature="e#1025#1026#0" expanded="true" />
-                    <element signature="e#1052#1053#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-262">
+              <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+              <folding>
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="452" column="39" lean-forward="true" selection-start-line="452" selection-start-column="39" selection-end-line="452" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,10 +128,25 @@
       <find>new double[newMatrix.data.length];</find>
       <find>this.data.clone()</find>
       <find>matrixAsArray</find>
+      <find>sum2</find>
+      <find>sub2</find>
+      <find>this.shape() == m.shape()</find>
+      <find>mul1</find>
+      <find>mul</find>
+      <find>div2</find>
+      <find>dot</find>
     </findStrings>
     <replaceStrings>
       <replace>this.data.clone();</replace>
       <replace>m.get</replace>
+      <replace>sub1</replace>
+      <replace>sub2</replace>
+      <replace>mul1</replace>
+      <replace>mul2</replace>
+      <replace>this.shape()[0] != m.shape()[0] || this.shape()[1] != m.shape()[1]</replace>
+      <replace>mul3</replace>
+      <replace>div</replace>
+      <replace>div1</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -182,9 +172,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
+    <option name="x" value="1987" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
+    <option name="width" value="1853" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
@@ -192,8 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +222,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +232,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540468824029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541528425985" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -275,16 +265,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.MatrixTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.matrix.Main" />
-      <module name="OOP" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
@@ -299,14 +279,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixTest.divByNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2.matrix" />
+      <option name="MAIN_CLASS_NAME" value="lab2.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="divByNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.dot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2.matrix" />
+      <option name="MAIN_CLASS_NAME" value="lab2.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="dot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.frobenius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2.matrix" />
+      <option name="MAIN_CLASS_NAME" value="lab2.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="frobenius" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.mul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2.matrix" />
+      <option name="MAIN_CLASS_NAME" value="lab2.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="mul" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MatrixTest.divByNumber" />
+      <item itemvalue="JUnit.MatrixTest.mul" />
       <item itemvalue="JUnit.MatrixTest" />
+      <item itemvalue="JUnit.MatrixTest.dot" />
+      <item itemvalue="JUnit.MatrixTest.frobenius" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MatrixTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MatrixTest.frobenius" />
+        <item itemvalue="JUnit.MatrixTest.dot" />
+        <item itemvalue="JUnit.MatrixTest.mul" />
+        <item itemvalue="JUnit.MatrixTest.divByNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -323,44 +373,46 @@
       <workItem from="1539859378907" duration="4541000" />
       <workItem from="1540302058418" duration="1776000" />
       <workItem from="1540464242183" duration="944000" />
-      <workItem from="1540465223314" duration="3598000" />
+      <workItem from="1540465223314" duration="3722000" />
+      <workItem from="1541182626556" duration="78000" />
+      <workItem from="1541524362856" duration="4059000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 44m 12s.xml">
+    <history-entry file="MatrixTest_mulByNumber - 2018.11.06 at 19h 04m 07s.xml">
+      <configuration name="MatrixTest.mulByNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_mulByNumber - 2018.11.06 at 19h 04m 50s.xml">
+      <configuration name="MatrixTest.mulByNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_divByNumber - 2018.11.06 at 19h 08m 00s.xml">
+      <configuration name="MatrixTest.divByNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_mul - 2018.11.06 at 19h 08m 40s.xml">
+      <configuration name="MatrixTest.mul" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_mul - 2018.11.06 at 19h 09m 06s.xml">
+      <configuration name="MatrixTest.mul" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2018.11.06 at 19h 09m 20s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 44m 27s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 13m 17s.xml">
+      <configuration name="MatrixTest.dot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 45m 03s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 14m 40s.xml">
+      <configuration name="MatrixTest.dot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 45m 32s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 16m 58s.xml">
+      <configuration name="MatrixTest.dot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 48m 05s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 48m 54s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 51m 08s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 53m 53s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 13h 56m 50s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2018.10.25 at 14h 00m 09s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_frobenius - 2018.11.06 at 19h 19m 46s.xml">
+      <configuration name="MatrixTest.frobenius" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10859000" />
+    <option name="totallyTimeSpent" value="15120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +424,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <frame x="1987" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -380,14 +432,14 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09773606" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.099612616" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002761" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -504,32 +556,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab2/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="-262">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
           <folding>
             <element signature="e#970#971#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
             <element signature="e#1025#1026#0" expanded="true" />
             <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="473">
+          <caret line="452" column="39" lean-forward="true" selection-start-line="452" selection-start-column="39" selection-end-line="452" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

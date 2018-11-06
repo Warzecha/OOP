@@ -106,7 +106,7 @@ public class Matrix {
 
     public Matrix add(Matrix m) {
 
-        if (this.shape() == m.shape())
+        if (this.shape()[0] != m.shape()[0] || this.shape()[1] != m.shape()[1])
             throw new RuntimeException("Can not add matrices of different shapes");
 
         Matrix newMatrix = new Matrix(this.rows, this.cols);
@@ -123,7 +123,7 @@ public class Matrix {
 
     public Matrix sub(Matrix m) {
 
-        if (this.shape() == m.shape())
+        if (this.shape()[0] != m.shape()[0] || this.shape()[1] != m.shape()[1])
             throw new RuntimeException("Can not subtract matrices of different shapes");
 
         Matrix newMatrix = new Matrix(this.rows, this.cols);
@@ -139,7 +139,7 @@ public class Matrix {
 
     public Matrix mul(Matrix m) {
 
-        if (this.shape() == m.shape())
+        if (this.shape()[0] != m.shape()[0] || this.shape()[1] != m.shape()[1])
             throw new RuntimeException("Can not multiply matrices of different shapes");
 
         Matrix newMatrix = new Matrix(this.rows, this.cols);
@@ -155,7 +155,7 @@ public class Matrix {
 
     public Matrix div(Matrix m) {
 
-        if (this.shape() == m.shape())
+        if (this.shape()[0] != m.shape()[0] || this.shape()[1] != m.shape()[1])
             throw new RuntimeException("Can not divide matrices of different shapes");
 
         Matrix newMatrix = new Matrix(this.rows, this.cols);
