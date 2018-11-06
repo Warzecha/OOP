@@ -160,8 +160,6 @@ class MatrixTest {
             assertThat(e.getMessage(), is("Can not add matrices of different shapes"));
         }
 
-
-
     }
 
     @Test
@@ -441,7 +439,6 @@ class MatrixTest {
             assertThat(e.getMessage(), is("Can only calculate dot product of matrices n x m and m x n"));
         }
 
-
     }
 
     @Test
@@ -451,7 +448,6 @@ class MatrixTest {
         double norm = m1.frobenius();
 
         assertEquals(9.5393,norm, 0.1);
-
 
     }
 }
