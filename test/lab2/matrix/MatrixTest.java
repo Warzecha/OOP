@@ -129,8 +129,6 @@ class MatrixTest {
         Matrix m2 = generate2x3MatrixFilledWith(1);
         Matrix m3 = generate2x3MatrixFilledWith(5.2);
 
-
-
         Matrix sum1 = m1.add(m2);
         Matrix sum2 = m1.add(m3);
 
@@ -171,7 +169,6 @@ class MatrixTest {
 
         Matrix sub1 = m1.sub(m2);
         Matrix sub2 = m1.sub(m3);
-
 
 
         assertEquals(0, sub1.get(0, 0));
