@@ -263,4 +263,29 @@ public class Matrix {
     }
 
 
+
+//    ------------------------------------------------------------
+//    KARTKOWKA
+
+    public Matrix getColumn( int col) {
+
+        if (col > getCols() - 1 || col < 0)
+            throw new RuntimeException("Column index out of range");
+
+
+
+        Matrix column = new Matrix(getCols(), 1);
+
+
+        for(int i=0; i<getCols(); i++)
+        {
+            column.set(i, 0, this.get(i, col));
+        }
+
+
+        return column;
+    }
+
+
+
 }

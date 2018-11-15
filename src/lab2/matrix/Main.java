@@ -5,23 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-        double[][] arr2d = new double[2][2];
+        Matrix m = new Matrix(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
+        Matrix col = m.getColumn(2);
 
-        arr2d[0][0] = 1;
-        arr2d[0][1] = 2;
-        arr2d[1][0] = 3;
-        arr2d[1][1] = 4;
-
-
-        Matrix m = new Matrix(arr2d);
-
-        double frob = m.frobenius();
-
-
-
-        System.out.print(frob);
-
-
+        System.out.print(col.toString());
 
 
 
