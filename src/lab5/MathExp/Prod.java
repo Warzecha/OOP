@@ -42,6 +42,9 @@ public class Prod extends Node {
     @Override
     public double evaluate() {
         double result =1;
+        for(Node arg : args) {
+            result *= arg.evaluate();
+        }
         // oblicz iloczyn czynników wołąjąc ich metodę evaluate
         return sign*result;
     }
