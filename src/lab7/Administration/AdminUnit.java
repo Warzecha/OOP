@@ -9,7 +9,7 @@ public class AdminUnit {
     double area;
     double density;
     AdminUnit parent;
-    BoundingBox bbox = new BoundingBox();
+    BoundingBox bbox;
 
 
     public String getName() {
@@ -60,15 +60,42 @@ public class AdminUnit {
         this.parent = parent;
     }
 
-    public AdminUnit(String name, int adminLevel, double population, double area, double density, AdminUnit parent) {
+    public AdminUnit(String name, int adminLevel, double population, double area, double density, AdminUnit parent, BoundingBox bbox) {
         this.name = name;
         this.adminLevel = adminLevel;
         this.population = population;
         this.area = area;
         this.density = density;
         this.parent = parent;
+        this.bbox = bbox;
     }
 
+
+
+    public double fixMissingValues()
+    {
+        if(density != -1)
+        {
+            return density;
+        }
+        else
+        {
+
+            if(parent == null)
+            {
+                return -1;
+            }
+            else
+            {
+                density = parent.fixMissingValues();
+                population = density * area;
+                return density;
+            }
+
+
+        }
+
+    }
 
 
 
@@ -76,12 +103,20 @@ public class AdminUnit {
 
     @Override
     public String toString() {
+
+        String parentName = "none";
+        if(parent != null)
+        {
+            parentName = parent.name;
+        }
+
         return "AdminUnit{" +
                 "name='" + name + '\'' +
                 ", adminLevel=" + adminLevel +
                 ", population=" + population +
                 ", area=" + area +
                 ", density=" + density +
+                ", parent= " + parentName +
                 '}';
     }
 }

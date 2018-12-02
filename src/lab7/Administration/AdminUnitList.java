@@ -13,7 +13,7 @@ public class AdminUnitList {
     List<AdminUnit> units = new ArrayList<>();
 
 
-    Map<Long, AdminUnit> idToParent;
+    Map<Long, AdminUnit> idToAdminUnit = new HashMap<>();
 
 
 
@@ -31,12 +31,12 @@ public class AdminUnitList {
         CSVReader reader = new CSVReader(filename,",",true);
         while(reader.next()){
 
-            System.out.println(reader.get(2));
 
 
 
 
-            int id = reader.getInt("id", -1);
+
+            long id = reader.getLong("id", -1);
             int parentId = reader.getInt("parent", -1);
             String name = reader.get("name", "Missing name");
             int adminLevel = reader.getInt("admin_level", -1);
@@ -55,16 +55,47 @@ public class AdminUnitList {
             double x4 = reader.getDouble("x4", -1);
             double y4 = reader.getDouble("y4", -1);
 
+            BoundingBox bbox = new BoundingBox(new double[]{x1, x2, x3, x4}, new double[]{y1, y2, y3, y4});
 
-//            AdminUnit parent = new AdminUnit("Parent", -1, -1, -1, -1, null);
 
-            AdminUnit new_unit = new AdminUnit(name, adminLevel, population, area, density, null);
+
+            AdminUnit new_unit = new AdminUnit(name, adminLevel, population, area, density, null, bbox);
 
 
 
             units.add(new_unit);
+            idToAdminUnit.put(id, new_unit);
 
 
+        }
+
+
+
+
+        reader = new CSVReader(filename,",",true);
+        while(reader.next()){
+
+
+
+            long id = reader.getLong("id", -1);
+            long parentId = reader.getLong("parent", -1);
+
+
+            if(parentId != -1)
+            {
+                idToAdminUnit.get(id).setParent(idToAdminUnit.get(parentId));
+
+            }
+
+
+        }
+
+
+
+
+        for(AdminUnit unit : units)
+        {
+            unit.fixMissingValues();
         }
 
 
@@ -94,26 +125,6 @@ public class AdminUnitList {
 
 
 
-
-    public void fixMissingValues() {
-
-        for(AdminUnit unit : units)
-        {
-
-            if(unit.getDensity() == -1 && unit.parent != null)
-            {
-
-                unit.setDensity(unit.parent.getDensity());
-
-                unit.setPopulation(unit.getArea() * unit.getDensity());
-
-
-            }
-
-
-        }
-
-    }
 
 
 
