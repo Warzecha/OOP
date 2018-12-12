@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2101ea-bfad-4d78-94cd-896c79d515e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,46 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab6/csv/CSVReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="64" column="133" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="133" />
             </state>
           </provider>
         </entry>
@@ -83,20 +47,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="57" column="77" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="77" />
+            <state relative-caret-position="304">
+              <caret line="181" column="9" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="181" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#3722#3723#0" expanded="true" />
+                <element signature="e#3802#3803#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java">
+        <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="349">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,16 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/lab7/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab7/admin-units.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -148,6 +111,7 @@
       <find>getCols</find>
       <find>isMi</find>
       <find>System</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace>this.data.clone();</replace>
@@ -201,11 +165,12 @@
         <option value="$PROJECT_DIR$/src/lab6/csv/no-header.csv" />
         <option value="$PROJECT_DIR$/test/lab6/csv/CSVReaderTest.java" />
         <option value="$PROJECT_DIR$/src/lab6/csv/Main.java" />
-        <option value="$PROJECT_DIR$/src/lab7/Main.java" />
         <option value="$PROJECT_DIR$/src/lab6/csv/CSVReader.java" />
-        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" />
-        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" />
         <option value="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Main.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" />
+        <option value="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" />
       </list>
     </option>
   </component>
@@ -234,33 +199,13 @@
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab6" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab7" type="462c0819:PsiDirectoryNode" />
-              <item name="Administration" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="matrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,24 +220,23 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543501513707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544653052588" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab7.Administration" />
       <recent name="lab6.csv" />
       <recent name="lab2.matrix" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/lab6/csv" />
-      <recent name="$PROJECT_DIR$/src/lab6" />
-      <recent name="$PROJECT_DIR$/src/lab4" />
-      <recent name="$PROJECT_DIR$/src/lab1" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab2.matrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lab7" />
@@ -303,8 +247,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="lab2.matrix" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lab6/csv" />
+      <recent name="$PROJECT_DIR$/src/lab6" />
+      <recent name="$PROJECT_DIR$/src/lab4" />
+      <recent name="$PROJECT_DIR$/src/lab1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,46 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab5.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.matrix.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab2.matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab6.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AdminUnitListSortingTest">
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab6.csv.Main" />
       <module name="OOP" />
@@ -385,20 +293,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminUnitListSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab7.Administration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab7.Administration" />
+      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab7.Administration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab7.Administration" />
+      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
+      <option name="METHOD_NAME" value="sortInPlaceByArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUnitListSortingTest.sortInPlaceByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab7.Administration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab7.Administration" />
+      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
+      <option name="METHOD_NAME" value="sortInPlaceByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByName" />
+      <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByArea" />
+      <item itemvalue="JUnit.AdminUnitListSortingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminUnitListSortingTest" />
+        <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByArea" />
+        <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByName" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +379,14 @@
       <workItem from="1543313534083" duration="623000" />
       <workItem from="1543496892640" duration="4625000" />
       <workItem from="1543516219911" duration="93000" />
-      <workItem from="1543747973637" duration="3498000" />
+      <workItem from="1543747973637" duration="4283000" />
+      <workItem from="1544117988273" duration="53000" />
+      <workItem from="1544266998986" duration="8562000" />
+      <workItem from="1544303932892" duration="33000" />
+      <workItem from="1544377157023" duration="207000" />
+      <workItem from="1544377819709" duration="566000" />
+      <workItem from="1544378456423" duration="13000" />
+      <workItem from="1544649507941" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="finished tests">
       <created>1541528456326</created>
@@ -469,43 +430,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543501475985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AdminUnit">
+      <created>1543751639366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543751639366</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixTest_mulByNumber - 2018.11.06 at 19h 04m 50s.xml">
-      <configuration name="MatrixTest.mulByNumber" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByName - 2018.12.12 at 23h 06m 06s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_divByNumber - 2018.11.06 at 19h 08m 00s.xml">
-      <configuration name="MatrixTest.divByNumber" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 07m 07s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_mul - 2018.11.06 at 19h 08m 40s.xml">
-      <configuration name="MatrixTest.mul" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 07m 48s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_mul - 2018.11.06 at 19h 09m 06s.xml">
-      <configuration name="MatrixTest.mul" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 08m 10s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.11.06 at 19h 09m 20s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 08m 37s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 13m 17s.xml">
-      <configuration name="MatrixTest.dot" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 09m 21s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 14m 40s.xml">
-      <configuration name="MatrixTest.dot" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest - 2018.12.12 at 23h 10m 12s.xml">
+      <configuration name="AdminUnitListSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_dot - 2018.11.06 at 19h 16m 58s.xml">
-      <configuration name="MatrixTest.dot" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 11m 05s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_frobenius - 2018.11.06 at 19h 19m 46s.xml">
-      <configuration name="MatrixTest.frobenius" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 11m 28s.xml">
+      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2018.11.06 at 19h 20m 29s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest - 2018.12.12 at 23h 11m 58s.xml">
+      <configuration name="AdminUnitListSortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41616000" />
+    <option name="totallyTimeSpent" value="55356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,16 +493,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.10846707" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11621472" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286026" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002761" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32715377" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32715377" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3991276" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32900432" />
@@ -603,7 +571,8 @@
     <MESSAGE value="test code cleanup" />
     <MESSAGE value="Math expression" />
     <MESSAGE value="Pliki do kartkówki: src/lab2/matrix/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pliki do kartkówki: src/lab2/matrix/" />
+    <MESSAGE value="AdminUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="AdminUnit" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -651,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab4/resume/ListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -688,9 +647,6 @@
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cv.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab4/resume/ParagraphWithList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,38 +811,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/lab6/csv/CSVReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="835">
+          <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab7/admin-units.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -895,37 +831,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab6/csv/CSVReader.java">
+    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
+        <state relative-caret-position="2220">
+          <caret line="152" selection-start-line="152" selection-end-line="158" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="57" column="77" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1680">
+          <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="64" column="133" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java">
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="304">
+          <caret line="181" column="9" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="181" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#3722#3723#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

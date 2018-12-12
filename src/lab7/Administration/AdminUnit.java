@@ -56,6 +56,8 @@ public class AdminUnit {
         return parent;
     }
 
+    public BoundingBox getBoundingBox() {return bbox; }
+
     public void setParent(AdminUnit parent) {
         this.parent = parent;
     }

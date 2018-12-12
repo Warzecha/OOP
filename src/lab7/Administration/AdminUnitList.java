@@ -4,22 +4,30 @@ package lab7.Administration;
 import lab6.csv.CSVReader;
 
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class AdminUnitList {
-    List<AdminUnit> units = new ArrayList<>();
+    private List<AdminUnit> units = new ArrayList<>();
 
 
-    Map<Long, AdminUnit> idToAdminUnit = new HashMap<>();
+    private Map<Long, AdminUnit> idToAdminUnit = new HashMap<>();
+
+    private Map<Long, List<AdminUnit>> parent2children = new HashMap<>();
 
 
 
 
+    public void add(AdminUnit unit)
+    {
+        units.add(unit);
+    }
 
 
+    public AdminUnit getAdminUnit(int index)
+    {
+        return units.get(index);
+    }
+    public int getSize() {return units.size(); }
 
 
 
@@ -66,6 +74,7 @@ public class AdminUnitList {
             units.add(new_unit);
             idToAdminUnit.put(id, new_unit);
 
+            parent2children.put(id, new LinkedList<AdminUnit>());
 
         }
 
@@ -81,9 +90,12 @@ public class AdminUnitList {
             long parentId = reader.getLong("parent", -1);
 
 
+
             if(parentId != -1)
             {
                 idToAdminUnit.get(id).setParent(idToAdminUnit.get(parentId));
+
+                parent2children.get(parentId).add(idToAdminUnit.get(id));
 
             }
 
@@ -122,6 +134,105 @@ public class AdminUnitList {
 
     }
 
+
+
+
+    public AdminUnitList getNeighbors(AdminUnit unit, double maxDistance){
+
+        AdminUnitList neighbors = new AdminUnitList();
+
+        for(AdminUnit other : units)
+        {
+            if(unit.getAdminLevel() == other.getAdminLevel())
+            {
+
+                if(unit.getBoundingBox().intersects(other.getBoundingBox()))
+                {
+                    neighbors.add(other);
+                } else if (unit.getAdminLevel() == 8 && unit.getBoundingBox().distanceTo(other.getBoundingBox()) <= maxDistance)
+                {
+                    neighbors.add(other);
+                }
+
+
+
+            }
+
+
+
+        }
+
+//        throw new RuntimeException("Not implemented");
+        return neighbors;
+    }
+
+
+
+    public AdminUnitList sortInPlaceByName()
+    {
+
+        class ComparatorByName implements Comparator<AdminUnit> {
+
+
+            @Override
+            public int compare(AdminUnit o1, AdminUnit o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+
+        }
+
+        units.sort(new ComparatorByName());
+        return this;
+    }
+
+
+    public AdminUnitList sortInPlaceByArea() {
+
+        units.sort(new Comparator<AdminUnit>(){
+
+
+            @Override
+            public int compare(AdminUnit o1, AdminUnit o2) {
+                if(o1.getArea() > o2.getArea())
+                {
+                    return 1;
+                }
+                else if(o1.getArea() == o2.getArea())
+                {
+                    return 0;
+                }
+                else return -1;
+            }
+
+        });
+
+        return this;
+    }
+
+
+    public AdminUnitList sortInPlaceByPopulation()
+    {
+        units.sort((AdminUnit o1, AdminUnit o2) -> {
+            if(o1.getPopulation() > o2.getPopulation())
+            {
+                return 1;
+            }
+            else if(o1.getPopulation() == o2.getPopulation())
+            {
+                return 0;
+            }
+            else return -1;
+        });
+
+        return this;
+    }
+
+
+    public AdminUnitList sortInPlace(Comparator<AdminUnit> cmp)
+    {
+        units.sort(cmp);
+        return this;
+    }
 
 
 
