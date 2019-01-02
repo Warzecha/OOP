@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2101ea-bfad-4d78-94cd-896c79d515e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/ClockWithGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/DownloadExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Star.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP/Lab10/ChristmasTree/Bubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/Lab10/ChristmasTree/Bubble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP/Lab10/ChristmasTree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/Lab10/ChristmasTree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP/lab7/admin-units.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/lab7/admin-units.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab10/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="210">
               <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,8 +52,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="250">
+              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Star.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,28 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="157">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,16 +212,16 @@
         <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java" />
         <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java" />
         <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" />
-        <option value="$PROJECT_DIR$/src/Lab10/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/Star.java" />
         <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="927" />
-    <option name="height" value="1053" />
+    <option name="x" value="-37" />
+    <option name="width" value="1657" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,17 +257,6 @@
               <item name="Lab10" type="462c0819:PsiDirectoryNode" />
               <item name="ChristmasTree" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="matrix" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -271,12 +270,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545310969240" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546441152279" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -443,6 +443,7 @@
       <workItem from="1544983642576" duration="608000" />
       <workItem from="1545306082662" duration="4947000" />
       <workItem from="1545495778756" duration="855000" />
+      <workItem from="1546437586735" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="finished tests">
       <created>1541528456326</created>
@@ -536,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73346000" />
+    <option name="totallyTimeSpent" value="76909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +549,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <frame x="67" y="0" width="1853" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -556,14 +557,14 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12451577" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12562259" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32752994" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002761" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.32715377" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.31779662" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -584,37 +585,6 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32965213" />
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20885357" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286026" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002761" side_tool="true" weight="0.11904762" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3286026" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4997239" weight="0.22925764" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32965213" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24958587" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24971624" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32965213" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -644,7 +614,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/OOP.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -981,10 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java">
+    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret line="390" column="33" lean-forward="true" selection-start-line="390" selection-start-column="33" selection-end-line="390" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -993,25 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="210">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab10/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1020,18 +972,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        <state relative-caret-position="250">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

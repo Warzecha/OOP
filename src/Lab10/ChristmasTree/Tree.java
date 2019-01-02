@@ -17,6 +17,8 @@ public class Tree implements XmasShape{
     List<Double> leavesX = new ArrayList<>(1);
     List<Double> leavesY = new ArrayList<>(1);
 
+    List<Bubble> decorations = new ArrayList<>(0);
+
 
 
 
@@ -78,19 +80,20 @@ public class Tree implements XmasShape{
             int size = 1;
 
 
-            Color fillColor;
+            Color fillColor = null;
 
             double bubbleChance = rng.nextDouble();
             if(bubbleChance < 0.0001) {
 
-                fillColor = Color.red;
-                size = 10;
+                decorations.add(new Bubble((int) Math.floor(leavesX.get(i) * spread), -(int) Math.floor(leavesY.get(i) * spread), 1));
+//                fillColor = Color.red;
+//                size = 10;
 
 
             } else
             {
                 int red = (int) Math.floor(rng.nextInt(40));
-                int green = (int) ( 155 + Math.floor(rng.nextInt(80)));
+                int green = (int) ( 105 + Math.floor(rng.nextInt(80)));
                 int blue = (int) Math.floor(rng.nextInt(40));
                 fillColor = new Color(red, green, blue);
 
@@ -104,6 +107,12 @@ public class Tree implements XmasShape{
 
 
         }
+
+
+        for (Bubble d : decorations) {
+            d.draw(g2d);
+        }
+
 
     }
 
