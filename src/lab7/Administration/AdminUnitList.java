@@ -5,6 +5,7 @@ import lab6.csv.CSVReader;
 
 import java.io.PrintStream;
 import java.util.*;
+import java.util.function.Predicate;
 
 public class AdminUnitList {
     private List<AdminUnit> units = new ArrayList<>();
@@ -193,15 +194,7 @@ public class AdminUnitList {
 
             @Override
             public int compare(AdminUnit o1, AdminUnit o2) {
-                if(o1.getArea() > o2.getArea())
-                {
-                    return 1;
-                }
-                else if(o1.getArea() == o2.getArea())
-                {
-                    return 0;
-                }
-                else return -1;
+                return Double.compare(o1.getArea(), o2.getArea());
             }
 
         });
@@ -212,17 +205,8 @@ public class AdminUnitList {
 
     public AdminUnitList sortInPlaceByPopulation()
     {
-        units.sort((AdminUnit o1, AdminUnit o2) -> {
-            if(o1.getPopulation() > o2.getPopulation())
-            {
-                return 1;
-            }
-            else if(o1.getPopulation() == o2.getPopulation())
-            {
-                return 0;
-            }
-            else return -1;
-        });
+        units.sort(Comparator.comparingDouble(AdminUnit::getPopulation));
+
 
         return this;
     }
@@ -235,6 +219,62 @@ public class AdminUnitList {
     }
 
 
+
+    public AdminUnitList filter(Predicate<AdminUnit> pred)
+    {
+        AdminUnitList toReturn =  new AdminUnitList();
+
+        for(AdminUnit u : this.units)
+        {
+            if(pred.test(u))
+            {
+                toReturn.add(u);
+            }
+        }
+
+        return toReturn;
+    }
+
+
+
+    public AdminUnitList filterByStartingLetter(String l) {
+        Predicate<AdminUnit> p = new Predicate<AdminUnit>() {
+            @Override
+            public boolean test(AdminUnit adminUnit) {
+                return adminUnit.getName().startsWith(l);
+            }
+        };
+        return filter(p);
+    }
+
+
+    public AdminUnitList filterByAdminLevelAndParent(int adminLevel, String parentName) {
+        Predicate<AdminUnit> p = new Predicate<AdminUnit>() {
+            @Override
+            public boolean test(AdminUnit adminUnit) {
+                return adminUnit.getAdminLevel() == adminLevel && adminUnit.getParent().getName() == parentName;
+            }
+        };
+        return filter(p);
+    }
+
+
+    public AdminUnitList filter(Predicate<AdminUnit> pred, int offset, int limit) {
+
+
+        AdminUnitList toReturn =  new AdminUnitList();
+
+        for(int i = offset; i < Math.min(offset + limit, units.size()); i++)
+        {
+            if(pred.test(units.get(i)))
+            {
+                toReturn.add(units.get(i));
+            }
+        }
+
+        return toReturn;
+
+    }
 
 
 

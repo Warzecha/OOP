@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2101ea-bfad-4d78-94cd-896c79d515e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/ClockWithGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/DownloadExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab11/Threads/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitQueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,48 +46,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="64" column="133" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="133" />
+            <state relative-caret-position="180">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="181" column="9" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="181" selection-end-column="9" />
+            <state relative-caret-position="312">
+              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#3722#3723#0" expanded="true" />
-                <element signature="e#3802#3803#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java">
+        <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
-              <folding>
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab7/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+            <state relative-caret-position="165">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab10/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,6 +129,10 @@
       <find>isMi</find>
       <find>System</find>
       <find>get</find>
+      <find>małopols</find>
+      <find>pow</find>
+      <find>małop</find>
+      <find>powiat chrza</find>
     </findStrings>
     <replaceStrings>
       <replace>this.data.clone();</replace>
@@ -169,8 +190,20 @@
         <option value="$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java" />
         <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java" />
         <option value="$PROJECT_DIR$/src/lab7/Main.java" />
-        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" />
         <option value="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java" />
+        <option value="$PROJECT_DIR$/test/lab7/Administration/AdminUnitListFilterTest.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Administration/AdminUnitQuery.java" />
+        <option value="$PROJECT_DIR$/test/lab7/Administration/AdminUnitQueryTest.java" />
+        <option value="$PROJECT_DIR$/src/lab11/Threads/Clock.java" />
+        <option value="$PROJECT_DIR$/src/lab11/Threads/ClockWithGui.java" />
+        <option value="$PROJECT_DIR$/src/lab11/Threads/DownloadExamples.java" />
+        <option value="$PROJECT_DIR$/src/lab11/Threads/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java" />
       </list>
     </option>
   </component>
@@ -188,13 +221,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
+              <item name="ChristmasTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +262,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +271,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544653052588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545310969240" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -235,8 +286,11 @@
       <recent name="lab6.csv" />
       <recent name="lab2.matrix" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="lab2.matrix" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lab6/csv" />
+      <recent name="$PROJECT_DIR$/src/lab6" />
+      <recent name="$PROJECT_DIR$/src/lab4" />
+      <recent name="$PROJECT_DIR$/src/lab1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lab7" />
@@ -247,11 +301,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/lab6/csv" />
-      <recent name="$PROJECT_DIR$/src/lab6" />
-      <recent name="$PROJECT_DIR$/src/lab4" />
-      <recent name="$PROJECT_DIR$/src/lab1" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab2.matrix" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,13 +317,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdminUnitListSortingTest">
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab6.csv.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab11.Threads.Clock" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab6.csv.*" />
+          <option name="PATTERN" value="lab11.Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +331,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab7.Main" />
+    <configuration name="ClockWithGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab11.Threads.ClockWithGui" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab7.*" />
+          <option name="PATTERN" value="lab11.Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,7 +344,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminUnitListSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab10.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUnitListFilterTest.filterWithLimitAndOffset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -302,28 +366,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lab7.Administration" />
-      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab7.Administration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab7.Administration" />
-      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
-      <option name="METHOD_NAME" value="sortInPlaceByArea" />
+      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListFilterTest" />
+      <option name="METHOD_NAME" value="filterWithLimitAndOffset" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminUnitListSortingTest.sortInPlaceByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminUnitQueryTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -332,27 +382,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lab7.Administration" />
-      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitListSortingTest" />
-      <option name="METHOD_NAME" value="sortInPlaceByName" />
+      <option name="MAIN_CLASS_NAME" value="lab7.Administration.AdminUnitQueryTest" />
+      <option name="METHOD_NAME" value="execute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByName" />
-      <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByArea" />
-      <item itemvalue="JUnit.AdminUnitListSortingTest" />
+      <item itemvalue="Application.Clock" />
+      <item itemvalue="Application.ClockWithGui" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.AdminUnitListFilterTest.filterWithLimitAndOffset" />
+      <item itemvalue="JUnit.AdminUnitQueryTest.execute" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdminUnitListSortingTest" />
-        <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByArea" />
-        <item itemvalue="JUnit.AdminUnitListSortingTest.sortInPlaceByName" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClockWithGui" />
+        <item itemvalue="Application.Clock" />
+        <item itemvalue="JUnit.AdminUnitQueryTest.execute" />
+        <item itemvalue="JUnit.AdminUnitListFilterTest.filterWithLimitAndOffset" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +436,13 @@
       <workItem from="1544377157023" duration="207000" />
       <workItem from="1544377819709" duration="566000" />
       <workItem from="1544378456423" duration="13000" />
-      <workItem from="1544649507941" duration="3521000" />
+      <workItem from="1544649507941" duration="3613000" />
+      <workItem from="1544701343839" duration="4634000" />
+      <workItem from="1544735767384" duration="6818000" />
+      <workItem from="1544783248232" duration="36000" />
+      <workItem from="1544983642576" duration="608000" />
+      <workItem from="1545306082662" duration="4947000" />
+      <workItem from="1545495778756" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="finished tests">
       <created>1541528456326</created>
@@ -437,43 +493,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543751639366</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Sorting">
+      <created>1544653068370</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544653068370</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByName - 2018.12.12 at 23h 06m 06s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByName" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_filter - 2018.12.13 at 12h 56m 48s.xml">
+      <configuration name="AdminUnitListSortingTest.filter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 07m 07s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_filter - 2018.12.13 at 13h 07m 13s.xml">
+      <configuration name="AdminUnitListSortingTest.filter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 07m 48s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_filterByStartingLetter - 2018.12.13 at 13h 11m 44s.xml">
+      <configuration name="AdminUnitListSortingTest.filterByStartingLetter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 08m 10s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListSortingTest_filterByAdminLevelAndParent - 2018.12.13 at 13h 18m 48s.xml">
+      <configuration name="AdminUnitListSortingTest.filterByAdminLevelAndParent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 08m 37s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListFilterTest - 2018.12.13 at 13h 30m 39s.xml">
+      <configuration name="AdminUnitListFilterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 09m 21s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListFilterTest - 2018.12.13 at 13h 32m 20s.xml">
+      <configuration name="AdminUnitListFilterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest - 2018.12.12 at 23h 10m 12s.xml">
+    <history-entry file="AdminUnitListFilterTest - 2018.12.13 at 13h 32m 53s.xml">
+      <configuration name="AdminUnitListFilterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminUnitListSortingTest - 2018.12.13 at 13h 38m 29s.xml">
       <configuration name="AdminUnitListSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 11m 05s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
+    <history-entry file="AdminUnitListFilterTest_filterWithLimitAndOffset - 2018.12.13 at 13h 45m 02s.xml">
+      <configuration name="AdminUnitListFilterTest.filterWithLimitAndOffset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminUnitListSortingTest_sortInPlaceByArea - 2018.12.12 at 23h 11m 28s.xml">
-      <configuration name="AdminUnitListSortingTest.sortInPlaceByArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdminUnitListSortingTest - 2018.12.12 at 23h 11m 58s.xml">
-      <configuration name="AdminUnitListSortingTest" configurationId="JUnit" />
+    <history-entry file="AdminUnitQueryTest_execute - 2018.12.13 at 13h 59m 31s.xml">
+      <configuration name="AdminUnitQueryTest.execute" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55356000" />
+    <option name="totallyTimeSpent" value="73346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,21 +556,22 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11621472" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12451577" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286026" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002761" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.32715377" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.3991276" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4997239" weight="0.22900763" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -572,46 +636,14 @@
     <MESSAGE value="Math expression" />
     <MESSAGE value="Pliki do kartkówki: src/lab2/matrix/" />
     <MESSAGE value="AdminUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdminUnit" />
+    <MESSAGE value="Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab1/HelloWorld.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/Main.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/Pasha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/Party.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/Pasha.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/SimpleIO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/OOP.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,13 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab4/resume/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -766,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab6/csv/CSVReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/lab6/csv/no-header.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -824,23 +842,6 @@
     <entry file="file://$PROJECT_DIR$/cv.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/admin-units.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="152" selection-start-line="152" selection-end-line="158" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab7/Administration/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -848,42 +849,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="64" column="133" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="250">
           <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="181" column="9" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="181" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#3722#3723#0" expanded="true" />
-            <element signature="e#3802#3803#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="64" column="133" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        <state relative-caret-position="1860">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
           <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4172#4173#0" expanded="true" />
+            <element signature="e#4253#4254#0" expanded="true" />
+            <element signature="e#5086#5087#0" expanded="true" />
+            <element signature="e#5158#5159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab6/csv/CSVReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/admin-units.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88605">
+          <caret line="5907" column="24" selection-start-line="5907" selection-start-column="12" selection-end-line="5907" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitListFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/Administration/AdminUnitQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab7/Administration/AdminUnitQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab11/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab11/Threads/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab11/Threads/ClockWithGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab11/Threads/DownloadExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab4/resume/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab11/Threads/Downloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/XmasShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/DrawPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10/ChristmasTree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab2/matrix/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -72,7 +72,7 @@ class AdminUnitListSortingTest {
     }
 
     @Test
-    void sortInPlace() {
+    void sortInPlaceWithNameComparator() {
 
         list.sortInPlace(new ComparatorByName());
 
@@ -83,4 +83,51 @@ class AdminUnitListSortingTest {
 
 
     }
+
+
+    @Test
+    void sortInPlaceWithAreaComparator() {
+
+        list.sortInPlace(new Comparator<AdminUnit>(){
+
+
+            @Override
+            public int compare(AdminUnit o1, AdminUnit o2) {
+                if(o1.getArea() > o2.getArea())
+                {
+                    return 1;
+                }
+                else if(o1.getArea() == o2.getArea())
+                {
+                    return 0;
+                }
+                else return -1;
+            }
+
+        });
+
+        for(int i = 0; i < list.getSize() - 1; i++)
+        {
+            assertTrue(list.getAdminUnit(i).getArea() <= list.getAdminUnit(i+1).getArea());
+        }
+
+
+    }
+
+
+
+    @Test
+    void sortInPlaceWithPopulationComparator() {
+        list.sortInPlace(Comparator.comparingDouble(AdminUnit::getPopulation));
+
+        for(int i = 0; i < list.getSize() - 1; i++)
+        {
+            assertTrue(list.getAdminUnit(i).getPopulation() <= list.getAdminUnit(i+1).getPopulation());
+        }
+    }
+
+
+
+
+
 }
