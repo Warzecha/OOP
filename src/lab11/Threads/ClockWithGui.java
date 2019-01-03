@@ -13,6 +13,7 @@ public class ClockWithGui extends JPanel {
 
     ClockWithGui() {
         new ClockThread().start();
+        setOpaque(false);
     }
 
 
@@ -30,8 +31,8 @@ public class ClockWithGui extends JPanel {
                     e.printStackTrace();
                 }
 
-                removeAll();
-                revalidate();
+//                removeAll();
+//                revalidate();
                 repaint();
             }
         }
@@ -51,6 +52,8 @@ public class ClockWithGui extends JPanel {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);
         frame.setVisible(true);
+
+
 
 
 
