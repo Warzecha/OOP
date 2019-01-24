@@ -63,8 +63,7 @@ public class CSVReader {
             return false;
         }
         // podziel na pola
-        current = line.split(delimiter);
-
+        current = line.split(delimiter, -1);
 
 
         return true;
@@ -234,6 +233,10 @@ public class CSVReader {
 
     public int getRecordLength() {
         return current.length;
+    }
+
+    public String [] getCurrent() {
+        return current;
     }
 
 
